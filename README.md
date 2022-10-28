@@ -4,4 +4,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-$ git checkout -b feat-uzd develop
+$ git checkout develop
+$ git merge --no-ff feat-uzd
+$ git branch -d feat-uzd
+$ git push origin develop
